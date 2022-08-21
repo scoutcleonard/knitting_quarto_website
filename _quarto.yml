@@ -1,8 +1,9 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "knitting_quarto_website"
+  title: "Scout's Knitting Projects"
   navbar:
     background: primary
     left:
