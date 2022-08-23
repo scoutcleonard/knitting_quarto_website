@@ -5,7 +5,6 @@ project:
 website:
   title: "Scout's Knitting Projects"
   navbar:
-    background: primary
     left:
       - href: index.qmd
         text: Home
@@ -13,7 +12,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: trestles
     css: styles.css
     toc: true
 
