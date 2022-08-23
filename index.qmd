@@ -6,13 +6,16 @@ about:
     - icon: Ravelry
       text: Ravelry
       href: https://www.ravelry.com/people/scoutcleonard
+  image-width: 50em
 image: sweater_main.jpeg
 ---
 
 **Welcome to my knitting blog!**
 
-My name is Scout! [My professional website](https://scoutcleonard.github.io) was built using the R package `distill`: you can find it here! 
+My name is Scout! [My professional website](https://scoutcleonard.github.io) was built using the R package `distill`.
 
-I wanted to try website-building using Quarto documents, though, and so I am trying this out as a place to share my personal passion: knitting! 
+I wanted to try website-building using Quarto documents, though, and so I am trying this out as a place to share my personal passion:
+
+**🐏✨knitting!✨🐏**
 
 If you, too, knit and want to connect, [follow me on Ravelry](https://www.ravelry.com/people/scoutcleonard)! 
