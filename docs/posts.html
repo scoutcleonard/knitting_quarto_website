@@ -60,9 +60,9 @@
       }
 
       const options = {
-        valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+        valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
         
-        searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+        searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
       };
 
       window['quarto-listings'] = window['quarto-listings'] || {};
@@ -95,9 +95,6 @@
     <a class="nav-link" href="./index.html">Home</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">Projects</a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="./posts.html" aria-current="page">Blog</a>
   </li>  
 </ul>
@@ -121,7 +118,7 @@
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cables">cables <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hats">hats <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sweaters">sweaters <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="cables"><span class="quarto-category-count category-cloud-7">cables</span></div><div class="category" data-category="hats"><span class="quarto-category-count category-cloud-7">hats</span></div><div class="category" data-category="sweaters"><span class="quarto-category-count category-cloud-4">sweaters</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -129,21 +126,24 @@
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing" data-sidebar-align="true">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="hats,cables" data-listing-date-sort="1661929200000" data-listing-file-modified-sort="1661961529815" data-listing-reading-time-sort="0.78">
-<div class="thumbnail">
-<p><a href="./posts/cable_seed_hat.html"> <img src="./figs/cable_seed_hat.JPG" class="thumnail-image"> </a></p>
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing" data-sidebar-align="true">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-<div class="body">
-<a href="./posts/cable_seed_hat.html">
-<h3 class="no-anchor listing-title">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="hats,cables" data-listing-date-sort="1661929200000" data-listing-file-modified-sort="1661961529815" data-listing-reading-time-sort="0.78">
+<a href="./posts/cable_seed_hat.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./figs/cable_seed_hat.JPG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 The Cable Seed Hat
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('hats'); return false;">
 hats
@@ -152,57 +152,83 @@ hats
 cables
 </div>
 </div>
-<a href="./posts/cable_seed_hat.html">
-<div class="listing-description">
-<p>Cables and seed and ribbing, oh my!</p>
+<div class="card-text listing-description">
+Cables and seed and ribbing, oh my!
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/cable_seed_hat.html">
-<div class="listing-date">
-Aug 31, 2022
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Scout Leonard
 </div>
+<div class="listing-date">
+Aug 31, 2022
+</div>
+</div>
+</div>
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="sweaters" data-listing-date-sort="1661929200000" data-listing-file-modified-sort="1661961497482" data-listing-reading-time-sort="0.81">
-<div class="thumbnail">
-<p><a href="./posts/kingston_sweater.html"> <img src="./figs/kingston_1.jpeg" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/kingston_sweater.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="1" data-categories="sweaters" data-listing-date-sort="1661929200000" data-listing-file-modified-sort="1661961497482" data-listing-reading-time-sort="0.81">
+<a href="./posts/kingston_sweater.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./figs/kingston_1.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 The Kingston Sweater
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('sweaters'); return false;">
 sweaters
 </div>
 </div>
-<a href="./posts/kingston_sweater.html">
-<div class="listing-description">
-<p>The best sweater for the best mom!🫶</p>
+<div class="card-text listing-description">
+The best sweater for the best mom!🫶
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/kingston_sweater.html">
-<div class="listing-date">
-Aug 31, 2022
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Scout Leonard
 </div>
+<div class="listing-date">
+Aug 31, 2022
+</div>
+</div>
+</div>
+</div>
 </a>
 </div>
+<div class="g-col-1" data-index="2" data-categories="hats,cables" data-listing-date-sort="1661929200000" data-listing-file-modified-sort="1661963723099" data-listing-reading-time-sort="0.76">
+<a href="./posts/tiny_tripes_hat.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./figs/tiny_stripes_1.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tiny Stripes Hat
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('hats'); return false;">
+hats
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('cables'); return false;">
+cables
+</div>
+</div>
+<div class="card-text listing-description">
+Tiny = Cute, and that’s facts.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Scout Leonard
+</div>
+<div class="listing-date">
+Aug 31, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
 </div>
 </div>
 <div class="listing-no-matching d-none">

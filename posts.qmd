@@ -3,10 +3,10 @@ title: "Scout's Knits"
 listing:
   contents: posts
   sort: "date desc"
-  type: default
-  categories: true
+  type: grid
+  categories: cloud
   sort-ui: false
-  filter-ui: false
+  filter-ui: true
 page-layout: full
 title-block-banner: true
 ---
