@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="quarto-0.9.243">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Scout’s Knitting Projects - Scout’s Knitting Projects 🧶</title>
+  <title>Scout’s Knitting Projects - Scout’s Knits</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,8 @@
   <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
   <script src="site_libs/quarto-search/fuse.min.js"></script>
   <script src="site_libs/quarto-search/quarto-search.js"></script>
+  <script src="site_libs/quarto-listing/list.min.js"></script>
+  <script src="site_libs/quarto-listing/quarto-listing.js"></script>
   <script src="site_libs/quarto-html/quarto.js"></script>
   <script src="site_libs/quarto-html/popper.min.js"></script>
   <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -48,12 +50,35 @@
       "search-submit-button-title": "Submit"
     }
   }</script>
+  <script>
+
+    window.document.addEventListener("DOMContentLoaded", function (_event) {
+      const listingTargetEl = window.document.querySelector('#listing-listing .list');
+      if (!listingTargetEl) {
+        // No listing discovered, do not attach.
+        return; 
+      }
+
+      const options = {
+        valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+        
+        searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      };
+
+      window['quarto-listings'] = window['quarto-listings'] || {};
+      window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+      if (window['quarto-listing-loaded']) {
+        window['quarto-listing-loaded']();
+      }
+    });
+    </script>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
@@ -67,13 +92,13 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+    <a class="nav-link" href="./index.html">Home</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html">Projects</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html">Blog</a>
+    <a class="nav-link active" href="./posts.html" aria-current="page">Blog</a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -89,31 +114,101 @@
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+
+<div class="quarto-title-banner color-navbar page-columns page-full"><div class="quarto-title column-body"><h1 class="title display-7">Scout’s Knits</h1></div></div></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cables">cables <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hats">hats <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sweaters">sweaters <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-marquee">
-  <div class="about-image-container">
-    <img src="sweater_main.jpeg" class="about-image " style="width: 40em;">
-  </div>
-  <div class="about-contents">
-    <header id="title-block-header" class="quarto-title-block default">
-
-<div class="quarto-title"><h1 class="title display-7">Scout’s Knitting Projects 🧶</h1></div></header> <main class="content" id="quarto-document-content">
-<p><strong>Welcome to my knitting blog!</strong></p>
-<p>My name is Scout! <a href="https://scoutcleonard.github.io">My professional website</a> was built using the R package <code>distill</code>.</p>
-<p>I wanted to try website-building using Quarto documents, though, and so I am trying this out as a place to share my personal passion:</p>
-<p><strong>🐏✨knitting!✨🐏</strong></p>
-<p>If you, too, knit and want to connect, <a href="https://www.ravelry.com/people/scoutcleonard">follow me on Ravelry</a>!</p>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
-</main> 
-  </div>
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing" data-sidebar-align="true">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="hats,cables" data-listing-date-sort="1661929200000" data-listing-file-modified-sort="1661961529815" data-listing-reading-time-sort="0.78">
+<div class="thumbnail">
+<p><a href="./posts/cable_seed_hat.html"> <img src="./figs/cable_seed_hat.JPG" class="thumnail-image"> </a></p>
 </div>
- <!-- /main -->
+<div class="body">
+<a href="./posts/cable_seed_hat.html">
+<h3 class="no-anchor listing-title">
+The Cable Seed Hat
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('hats'); return false;">
+hats
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('cables'); return false;">
+cables
+</div>
+</div>
+<a href="./posts/cable_seed_hat.html">
+<div class="listing-description">
+<p>Cables and seed and ribbing, oh my!</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/cable_seed_hat.html">
+<div class="listing-date">
+Aug 31, 2022
+</div>
+<div class="listing-author">
+Scout Leonard
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="sweaters" data-listing-date-sort="1661929200000" data-listing-file-modified-sort="1661961497482" data-listing-reading-time-sort="0.81">
+<div class="thumbnail">
+<p><a href="./posts/kingston_sweater.html"> <img src="./figs/kingston_1.jpeg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/kingston_sweater.html">
+<h3 class="no-anchor listing-title">
+The Kingston Sweater
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('sweaters'); return false;">
+sweaters
+</div>
+</div>
+<a href="./posts/kingston_sweater.html">
+<div class="listing-description">
+<p>The best sweater for the best mom!🫶</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/kingston_sweater.html">
+<div class="listing-date">
+Aug 31, 2022
+</div>
+<div class="listing-author">
+Scout Leonard
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const icon = "";

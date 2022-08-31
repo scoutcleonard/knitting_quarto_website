@@ -2,11 +2,7 @@
 title: "Scout's Knitting Projects 🧶"
 about:
   template: marquee
-  links:
-    - icon: Ravelry
-      text: Ravelry
-      href: https://www.ravelry.com/people/scoutcleonard
-  image-width: 50em
+  image-width: 40em
 image: sweater_main.jpeg
 ---
 

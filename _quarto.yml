@@ -9,6 +9,13 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: posts.qmd
+        text: Blog
+    right:
+      - icon: github
+        href: https://github.com/scoutcleonard/knitting_quarto_website
+        aria-label: GitHub
+  repo-url: https://github.com/scoutcleonard/knitting_quarto_website
 
 format:
   html:
