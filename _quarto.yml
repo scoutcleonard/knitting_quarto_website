@@ -3,14 +3,18 @@ project:
   output-dir: docs
 
 website:
-  title: "Scout's Knitting Projects"
+  favicon: figs/scout_yarn_logo_clear_bg.png
+  title: "Scout Knits Stuff!"
   navbar:
-    left:
+    logo: figs/scout_yarn_logo_clear_bg.png
+    title: false
+    right:
       - href: index.qmd
         text: Home
       - href: posts.qmd
         text: Blog
-    right:
+      - href: knitting_places.qmd
+        text: Knitting Places
       - icon: github
         href: https://github.com/scoutcleonard/knitting_quarto_website
         aria-label: GitHub
@@ -18,9 +22,8 @@ website:
 
 format:
   html:
-    theme: sandstone
+    theme: sketchy
     css: styles.css
     toc: true
 
 editor: visual
-

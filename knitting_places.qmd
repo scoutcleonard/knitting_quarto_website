@@ -1,0 +1,35 @@
+---
+title: "Knitting in New Places"
+description: "A wonderful thing about knitting is how portable it is! I knit on buses and planes, on my couch, and in the backcountry. Here are some photos from memorable places I've knit."
+about:
+  template: marquee
+  image-width: 40em
+---
+
+Click through the tabs below to see and read about some of the places I've knit. Something special about slow fashion for me is that every time I wear things I make, I am reminded of all the places my garment is connected to: the locations where the yarn was grown, spun, and dyed; the local yarn shop where I purchased my supplies; the places where I sat and worked on my project peacefully. I'm glad this website gives me the space to expand about some of the details that make my knits special and memorable to me. 
+
+::: panel-tabset
+
+## Emerald Bay
+
+![Purl Soho's Tiny Stripes Hat from the Emerald Bay State Park lookout point.](figs/knitting_places/tahoe.JPG)
+
+My partner, Shane, and I enjoy cycling (and sometimes bike packing) and planned a 2-day trip around Lake Tahoe back in 2019. Shane had some unfortunate bike repair problems that stopped our trip short. This was possibly for the best, since some of the roads around the lake really are sketchy for cyclists.
+
+Shane biked back to the car on my bike (hilarious size mismatch!) while I sat with his broken bike at Emerald Bay, waiting for him to pick me up in the car. Fortunately, I had packed my knitting for the trip and got some rows in! Silver linings!
+
+## Tenaya Lake
+
+![I loved that my yarn matched the backdrop! This is one of my favorite shawls to wear becuase it is Sierras-colored.](figs/knitting_places/tenaya.JPG)
+
+I've also done my fair share of knitting in Yosemite National Park. I love visiting in winter when the crowds are scarce and I can actually *wear* my knits, but I equally enjoy sitting by the water in summer and having a backcountry crafternoon.
+
+Here, I am working on the Purl Soho Dovetail Scarf, which has become a staple in my wardrobe. The yarn was purchased at my favorite yarn store on the planet: [Atelier in Truckee, California!](https://ateliertruckee.myshopify.com)
+
+## Cafes
+
+![Becca knits a hat at Cafenated Cafe in Berkeley, California,](figs/knitting_places/cafes.JPG)
+
+I also love knitting at cafes. And breweries. For a while, I met with my friend, Becca, shown in this tab, at cafes and parks to knit socially and enjoy conversation, fresh air, caffeine, and soft yarn! 
+
+:::
